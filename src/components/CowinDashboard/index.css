@@ -1,0 +1,44 @@
+/* Write your CSS here */
+* {
+  box-sizing: border-box;
+}
+.app-bg {
+  background-color: #161625;
+  padding: 50px;
+  color: #cbd5e1;
+  font-family: 'Roboto';
+}
+.logo-and-title {
+  display: flex;
+}
+.logo {
+  width: 80px;
+}
+.logo-title {
+  color: #2cc6c6;
+  font-size: 32px;
+  margin-left: 15px;
+}
+.main-title {
+  margin-top: 25px;
+}
+.app-body {
+  height: 80%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.chart-body {
+  width: 90vw;
+  margin-top: 15px;
+  padding: 15px;
+  background-color: #1c1c2b;
+}
+.chart-heading {
+  color: #cbd5e1;
+}
+.not-found-image {
+  width: 100%;
+  margin-bottom: 15px;
+}
